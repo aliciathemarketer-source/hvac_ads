@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IntellaBooks: HVAC Marketing Strategy 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink:   #0d0f14;
+  --ink2:  #181b23;
+  --ink3:  #1f242f;
+  --line:  #252b38;
+  --line2: #2d3547;
+  --text:  #e8ecf5;
+  --sub:   #7a879f;
+  --dim:   #3d4758;
+  --ice:   #00cfff;
+  --fire:  #ff4d2e;
+  --lime:  #00e57a;
+  --gold:  #ffb930;
+  --plum:  #a78bfa;
+  --ib:    rgba(0,207,255,.06);
+  --ifr:   rgba(255,77,46,.06);
+  --ilm:   rgba(0,229,122,.06);
+  --igo:   rgba(255,185,48,.06);
+  --r: 6px; --r2: 10px;
+  --fw: 'Syne', sans-serif;
+  --fb: 'Instrument Sans', sans-serif;
+  --fm: 'JetBrains Mono', monospace;
+  --nw: 246px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--ink);color:var(--text);font-family:var(--fb);font-size:15px;line-height:1.72;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+
+/* PROGRESS */
+#prg{position:fixed;top:0;left:0;height:2px;width:0%;background:var(--ice);z-index:9999;-webkit-box-shadow:0 0 12px rgba(0,207,255,.5);box-shadow:0 0 12px rgba(0,207,255,.5)}
+
+/* OVERLAY */
+#ov{display:none;position:fixed;top:0;right:0;bottom:0;left:0;background:rgba(0,0,0,.72);z-index:299;-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px)}
+
+/* SIDEBAR */
+.nav{position:fixed;top:0;left:0;bottom:0;width:var(--nw);background:var(--ink2);border-right:1px solid var(--line);z-index:300;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;overflow-y:auto;-webkit-overflow-scrolling:touch;scrollbar-width:thin;scrollbar-color:var(--dim) transparent;-webkit-transition:-webkit-transform .26s ease;transition:transform .26s ease}
+.nav::-webkit-scrollbar{width:3px}
+.nav::-webkit-scrollbar-thumb{background:var(--dim);border-radius:2px}
+.nav-head{padding:24px 20px 20px;border-bottom:1px solid var(--line);-webkit-flex-shrink:0;flex-shrink:0;display:-webkit-flex;display:flex;-webkit-align-items:flex-start;align-items:flex-start;-webkit-justify-content:space-between;justify-content:space-between;gap:8px}
+.nav-logo{font-family:var(--fw);font-size:18px;font-weight:800;letter-spacing:3px;color:var(--ice);line-height:1;display:block}
+.nav-sub{font-family:var(--fm);font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--sub);margin-top:6px;display:block}
+.nav-x{background:none;border:1px solid var(--line2);color:var(--sub);cursor:pointer;width:28px;height:28px;border-radius:5px;font-size:14px;display:none;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;-webkit-flex-shrink:0;flex-shrink:0;margin-top:2px;-webkit-appearance:none;-webkit-tap-highlight-color:transparent}
+.ng{font-family:var(--fm);font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--dim);padding:18px 20px 6px;font-weight:500;display:block}
+.ni{display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;gap:8px;padding:8px 20px;font-size:12.5px;font-weight:500;color:var(--sub);border-left:2px solid transparent;-webkit-transition:all .15s;transition:all .15s;cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.ni .d{width:4px;height:4px;border-radius:50%;background:var(--dim);-webkit-flex-shrink:0;flex-shrink:0;-webkit-transition:background .15s;transition:background .15s}
+.ni:hover{color:var(--text);background:var(--ink3)}
+.ni:hover .d{background:var(--ice)}
+.ni.on{color:var(--ice);border-left-color:var(--ice);background:var(--ib)}
+.ni.on .d{background:var(--ice)}
+.nb{margin-left:auto;font-family:var(--fm);font-size:9px;padding:2px 6px;border-radius:3px;font-weight:500;-webkit-flex-shrink:0;flex-shrink:0}
+.nb-l{background:rgba(0,229,122,.12);color:var(--lime)}
+.nb-g{background:rgba(255,185,48,.12);color:var(--gold)}
+.nb-f{background:rgba(255,77,46,.12);color:var(--fire)}
+
+/* MAIN */
+.main{margin-left:var(--nw);min-height:100vh}
+
+/* HERO */
+.hero{padding:58px 54px 46px;border-bottom:1px solid var(--line);position:relative;overflow:hidden;background:-webkit-linear-gradient(135deg,rgba(0,207,255,.05) 0%,transparent 52%);background:linear-gradient(135deg,rgba(0,207,255,.05) 0%,transparent 52%)}
+.hero::before{content:'';position:absolute;top:-100px;right:-100px;width:400px;height:400px;background:radial-gradient(circle,rgba(0,207,255,.07) 0%,transparent 70%);pointer-events:none}
+.hero::after{content:'INTELLABOOKS';position:absolute;right:-10px;bottom:-22px;font-family:var(--fw);font-size:108px;font-weight:800;letter-spacing:4px;color:rgba(255,255,255,.022);pointer-events:none;line-height:1;white-space:nowrap}
+.htags{display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+.ht{font-family:var(--fm);font-size:10px;letter-spacing:2px;text-transform:uppercase;font-weight:500;padding:4px 10px;border-radius:4px}
+.ht-b{background:rgba(0,207,255,.09);color:var(--ice);border:1px solid rgba(0,207,255,.18)}
+.ht-f{background:rgba(255,77,46,.09);color:var(--fire);border:1px solid rgba(255,77,46,.18)}
+.ht-l{background:rgba(0,229,122,.09);color:var(--lime);border:1px solid rgba(0,229,122,.18)}
+.ht-g{background:rgba(255,185,48,.09);color:var(--gold);border:1px solid rgba(255,185,48,.18)}
+.hero h1{font-family:var(--fw);font-size:54px;font-weight:800;letter-spacing:2px;line-height:1.06;color:var(--text);margin-bottom:16px}
+.hero h1 em{color:var(--ice);font-style:normal}
+.hero p{max-width:600px;color:var(--sub);font-size:14.5px;line-height:1.8;margin-bottom:30px}
+.hstats{display:-webkit-flex;display:flex;gap:34px;-webkit-flex-wrap:wrap;flex-wrap:wrap}
+.hs .n{font-family:var(--fw);font-size:26px;font-weight:700;color:var(--ice);display:block;line-height:1;letter-spacing:1px}
+.hs .l{font-family:var(--fm);font-size:9.5px;letter-spacing:2px;text-transform:uppercase;color:var(--sub);display:block;margin-top:5px}
+@media(min-width:600px){.hero h1{font-size:54px}}
+@media(max-width:600px){.hero h1{font-size:34px}}
+
+/* CONTENT */
+.cnt{padding:0 54px 96px}
+
+/* SECTION */
+.sec{padding-top:54px;margin-top:54px;border-top:1px solid var(--line)}
+.sec:first-child{border-top:none;margin-top:46px}
+.sh{display:-webkit-flex;display:flex;-webkit-align-items:flex-start;align-items:flex-start;gap:16px;margin-bottom:28px}
+.sn{font-family:var(--fm);font-size:11px;color:var(--dim);padding-top:5px;min-width:28px}
+.st{font-family:var(--fw);font-size:28px;font-weight:700;letter-spacing:1.5px;color:var(--text);line-height:1.1}
+.st em{color:var(--ice);font-style:normal}
+.sd{font-size:13px;color:var(--sub);margin-top:5px}
+@media(max-width:600px){.st{font-size:22px}}
+
+/* TEXT */
+.body{font-size:14.5px;color:var(--sub);line-height:1.82;max-width:720px;margin-bottom:20px}
+.body strong{color:var(--text);font-weight:600}
+
+/* CALLOUT */
+.co{border-left:3px solid var(--ice);background:var(--ib);padding:16px 20px;border-radius:0 var(--r2) var(--r2) 0;margin:22px 0;font-size:14px;color:var(--sub);line-height:1.78}
+.co.f{border-left-color:var(--fire);background:var(--ifr)}
+.co.l{border-left-color:var(--lime);background:var(--ilm)}
+.co.g{border-left-color:var(--gold);background:var(--igo)}
+.co strong{color:var(--text)}
+.cl{font-family:var(--fm);font-size:9px;letter-spacing:3px;text-transform:uppercase;font-weight:500;color:var(--ice);display:block;margin-bottom:8px}
+.co.f .cl{color:var(--fire)}
+.co.l .cl{color:var(--lime)}
+.co.g .cl{color:var(--gold)}
+
+/* GRIDS */
+.g2{display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap;gap:14px;margin:20px 0}
+.g2>.c{-webkit-flex:1 1 260px;flex:1 1 260px}
+.g3{display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap;gap:14px;margin:20px 0}
+.g3>.c{-webkit-flex:1 1 195px;flex:1 1 195px}
+.g4{display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap;gap:12px;margin:20px 0}
+.g4>.c{-webkit-flex:1 1 148px;flex:1 1 148px}
+
+/* CARD */
+.c{background:var(--ink2);border:1px solid var(--line);border-radius:var(--r2);padding:20px}
+.c.tb{border-top:2px solid var(--ice)}
+.c.tf{border-top:2px solid var(--fire)}
+.c.tl{border-top:2px solid var(--lime)}
+.c.tg{border-top:2px solid var(--gold)}
+.c.tp{border-top:2px solid var(--plum)}
+.ico{font-size:22px;margin-bottom:10px;display:block}
+.c h4{font-family:var(--fw);font-size:14px;font-weight:700;color:var(--text);margin-bottom:6px;letter-spacing:.5px}
+.c p{font-size:13.5px;color:var(--sub);line-height:1.65}
+.bn{font-family:var(--fw);font-size:30px;font-weight:700;display:block;line-height:1;margin-bottom:6px}
+.c.tb .bn{color:var(--ice)}
+.c.tf .bn{color:var(--fire)}
+.c.tl .bn{color:var(--lime)}
+.c.tg .bn{color:var(--gold)}
+
+/* PHASE BANNER */
+.ph{display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;gap:16px;padding:18px 20px;border-radius:var(--r2);margin:24px 0;border:1px solid}
+.ph.b{border-color:rgba(0,207,255,.22);background:var(--ib)}
+.ph.f{border-color:rgba(255,77,46,.22);background:var(--ifr)}
+.ph.l{border-color:rgba(0,229,122,.22);background:var(--ilm)}
+.ph-n{font-family:var(--fw);font-size:40px;font-weight:800;letter-spacing:2px;line-height:1;-webkit-flex-shrink:0;flex-shrink:0}
+.ph.b .ph-n{color:var(--ice)}
+.ph.f .ph-n{color:var(--fire)}
+.ph.l .ph-n{color:var(--lime)}
+.ph-i h4{font-size:14px;font-weight:700;color:var(--text);margin-bottom:4px}
+.ph-i p{font-size:13px;color:var(--sub);line-height:1.6}
+
+/* FUNNEL */
+.funnel{margin:26px 0;max-width:700px}
+.fs{display:-webkit-flex;display:flex;margin-bottom:8px}
+.fl{display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-align-items:center;align-items:center;width:44px;-webkit-flex-shrink:0;flex-shrink:0}
+.fc{width:34px;height:34px;border-radius:50%;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;font-family:var(--fm);font-size:12px;font-weight:500;-webkit-flex-shrink:0;flex-shrink:0}
+.fline{width:1px;-webkit-flex:1;flex:1;min-height:14px;background:var(--line2);margin:0 auto}
+.fb{-webkit-flex:1;flex:1;background:var(--ink2);border:1px solid var(--line);border-radius:var(--r2);padding:14px 18px;margin:0 0 0 12px}
+.fb h5{font-family:var(--fw);font-size:14px;font-weight:700;color:var(--text);margin-bottom:5px;letter-spacing:.5px}
+.fb p{font-size:13.5px;color:var(--sub);line-height:1.6}
+.ftags{display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap;gap:6px;margin-top:9px}
+.ft{font-family:var(--fm);font-size:10px;padding:2px 8px;border-radius:3px}
+.ft.b{background:rgba(0,207,255,.08);color:var(--ice);border:1px solid rgba(0,207,255,.15)}
+.ft.f{background:rgba(255,77,46,.08);color:var(--fire);border:1px solid rgba(255,77,46,.15)}
+.ft.l{background:rgba(0,229,122,.08);color:var(--lime);border:1px solid rgba(0,229,122,.15)}
+.ft.g{background:rgba(255,185,48,.08);color:var(--gold);border:1px solid rgba(255,185,48,.15)}
+
+/* TABLE */
+.tw{overflow-x:auto;margin:22px 0;-webkit-overflow-scrolling:touch;border-radius:var(--r2);border:1px solid var(--line)}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+thead th{text-align:left;padding:11px 14px;background:var(--ink3);border-bottom:1px solid var(--line2);font-family:var(--fm);font-size:9.5px;letter-spacing:2px;text-transform:uppercase;color:var(--sub);font-weight:500;white-space:nowrap}
+tbody td{padding:11px 14px;border-bottom:1px solid var(--line);color:var(--sub);vertical-align:top;background:var(--ink2)}
+tbody tr:last-child td{border-bottom:none}
+tbody td:first-child{color:var(--text);font-weight:600}
+.tl2{color:var(--lime)!important;font-weight:700}
+.tf2{color:var(--fire)!important;font-weight:700}
+.tg2{color:var(--gold)!important;font-weight:700}
+.tb2{color:var(--ice)!important;font-family:var(--fm);font-size:12px}
+
+/* AD SCRIPTS */
+.sc{background:var(--ink2);border:1px solid var(--line);border-radius:var(--r2);overflow:hidden;margin:16px 0}
+.sch{display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:space-between;justify-content:space-between;padding:11px 18px;background:var(--ink3);border-bottom:1px solid var(--line);-webkit-flex-wrap:wrap;flex-wrap:wrap;gap:8px}
+.sch h5{font-family:var(--fm);font-size:11px;letter-spacing:1.5px;color:var(--sub);text-transform:uppercase}
+.scb{padding:20px;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;gap:13px}
+.sl2{display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;gap:5px}
+.lbl{font-family:var(--fm);font-size:9px;letter-spacing:3px;text-transform:uppercase;font-weight:500}
+.lbl.hk{color:var(--ice)}
+.lbl.pr{color:var(--fire)}
+.lbl.mc{color:var(--gold)}
+.lbl.pf{color:var(--lime)}
+.lbl.ct{color:var(--plum)}
+.st2{font-size:14px;color:var(--text);line-height:1.72;font-style:italic;padding:10px 14px;background:rgba(255,255,255,.025);border-radius:var(--r);border-left:2px solid var(--line2)}
+
+/* TIMELINE */
+.tl{margin:24px 0}
+.ti{display:-webkit-flex;display:flex;gap:14px;margin-bottom:22px}
+.tm{display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-align-items:center;align-items:center;-webkit-flex-shrink:0;flex-shrink:0}
+.td{width:10px;height:10px;border-radius:50%;margin-top:4px;-webkit-flex-shrink:0;flex-shrink:0}
+.td.b{background:var(--ice)}
+.td.f{background:var(--fire)}
+.td.g{background:var(--gold)}
+.td.l{background:var(--lime)}
+.tlt{width:1px;-webkit-flex:1;flex:1;min-height:16px;background:var(--line2);margin-top:4px}
+.tc{-webkit-flex:1;flex:1;padding-bottom:4px}
+.tw2{font-family:var(--fm);font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--dim);margin-bottom:4px}
+.tc h5{font-family:var(--fw);font-size:14.5px;font-weight:700;color:var(--text);margin-bottom:5px}
+.tc p{font-size:13.5px;color:var(--sub);line-height:1.68}
+
+/* CHECK LIST */
+.cl2{list-style:none;margin:14px 0;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column}
+.cl2 li{display:-webkit-flex;display:flex;gap:10px;padding:9px 0;border-bottom:1px solid var(--line);font-size:14px;color:var(--sub);line-height:1.65}
+.cl2 li:last-child{border-bottom:none}
+.cl2 li::before{content:'+';color:var(--ice);font-family:var(--fm);font-size:13px;-webkit-flex-shrink:0;flex-shrink:0;font-weight:700}
+.cl2 li strong{color:var(--text)}
+
+/* PULL QUOTE */
+.pq{font-family:var(--fw);font-size:22px;font-weight:700;letter-spacing:.5px;color:var(--text);line-height:1.4;padding:20px 0 20px 22px;border-left:3px solid var(--ice);margin:28px 0;max-width:680px}
+@media(max-width:600px){.pq{font-size:17px}}
+
+/* DIVIDER */
+.dv{height:1px;background:-webkit-linear-gradient(90deg,transparent,var(--line),transparent);background:linear-gradient(90deg,transparent,var(--line),transparent);margin:28px 0}
+
+/* CREATIVE STEPS */
+.csteps{display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;margin:20px 0;max-width:700px}
+.cs{display:-webkit-flex;display:flex;gap:16px;padding:18px 0;border-bottom:1px solid var(--line)}
+.cs:last-child{border-bottom:none}
+.cs-n{font-family:var(--fw);font-size:30px;font-weight:800;color:var(--ice);-webkit-flex-shrink:0;flex-shrink:0;width:38px;line-height:1.1}
+.cs-info h4{font-size:14px;font-weight:700;color:var(--text);margin-bottom:5px}
+.cs-info p{font-size:13.5px;color:var(--sub);line-height:1.65}
+.cs-tag{font-family:var(--fm);font-size:9.5px;padding:2px 8px;border-radius:3px;background:rgba(0,207,255,.08);color:var(--ice);border:1px solid rgba(0,207,255,.15);display:inline-block;margin-top:8px}
+
+/* PROOF OF CONCEPT BOX */
+.poc{background:var(--ink2);border:1px solid var(--line2);border-radius:var(--r2);padding:24px;margin:22px 0}
+.poc-head{font-family:var(--fm);font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--ice);margin-bottom:16px;display:block}
+.poc-row{display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap;gap:0;border:1px solid var(--line);border-radius:var(--r)}
+.poc-cell{-webkit-flex:1 1 160px;flex:1 1 160px;padding:14px 16px;border-right:1px solid var(--line)}
+.poc-cell:last-child{border-right:none}
+.poc-cell .n{font-family:var(--fw);font-size:22px;font-weight:700;display:block;line-height:1;margin-bottom:4px}
+.poc-cell .l{font-family:var(--fm);font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--sub);display:block;margin-bottom:3px}
+.poc-cell .v{font-size:12.5px;color:var(--sub)}
+@media(max-width:520px){.poc-cell{border-right:none;border-bottom:1px solid var(--line)}.poc-cell:last-child{border-bottom:none}}
+
+/* AI CALL BOX */
+.aicall{background:var(--ink2);border:1px solid var(--line);border-radius:var(--r2);overflow:hidden;margin:20px 0}
+.aicall-head{padding:12px 18px;background:var(--ink3);border-bottom:1px solid var(--line);font-family:var(--fm);font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--sub)}
+.aicall-body{padding:20px;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;gap:12px}
+.aistep{padding:12px 14px;border-radius:var(--r);border-left:2px solid var(--line2)}
+.aistep.b{border-left-color:var(--ice);background:rgba(0,207,255,.04)}
+.aistep.f{border-left-color:var(--fire);background:rgba(255,77,46,.04)}
+.aistep.g{border-left-color:var(--gold);background:rgba(255,185,48,.04)}
+.aistep.l{border-left-color:var(--lime);background:rgba(0,229,122,.04)}
+.aistep.p{border-left-color:var(--plum);background:rgba(167,139,250,.04)}
+.aistep-lbl{font-family:var(--fm);font-size:9px;letter-spacing:2.5px;text-transform:uppercase;margin-bottom:6px;display:block}
+.aistep.b .aistep-lbl{color:var(--ice)}
+.aistep.f .aistep-lbl{color:var(--fire)}
+.aistep.g .aistep-lbl{color:var(--gold)}
+.aistep.l .aistep-lbl{color:var(--lime)}
+.aistep.p .aistep-lbl{color:var(--plum)}
+.aistep p{font-size:13.5px;color:var(--text);line-height:1.7;font-style:italic}
+
+/* FOOTER */
+.foot{margin-top:64px;padding:24px 0;border-top:1px solid var(--line);display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:space-between;justify-content:space-between;-webkit-flex-wrap:wrap;flex-wrap:wrap;gap:12px}
+.foot p{font-family:var(--fm);font-size:11px;color:var(--dim);line-height:1.6}
+.foot-brand{font-family:var(--fw);font-size:15px;font-weight:800;letter-spacing:3px;color:var(--dim)}
+
+/* MOB BUTTON */
+#mb{display:none;position:fixed;bottom:24px;right:24px;width:48px;height:48px;border-radius:50%;background:var(--ice);color:var(--ink);font-size:20px;border:none;cursor:pointer;z-index:200;-webkit-box-shadow:0 4px 20px rgba(0,207,255,.4);box-shadow:0 4px 20px rgba(0,207,255,.4);-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;-webkit-tap-highlight-color:transparent;-webkit-appearance:none;-webkit-transition:transform .15s;transition:transform .15s}
+#mb:active{-webkit-transform:scale(.92);transform:scale(.92)}
+
+/* RESPONSIVE */
+@media(max-width:960px){
+  .nav{-webkit-transform:translateX(-100%);transform:translateX(-100%)}
+  .nav.open{-webkit-transform:translateX(0);transform:translateX(0)}
+  .nav-x{display:-webkit-flex;display:flex}
+  .main{margin-left:0}
+  .hero{padding:36px 20px 28px}
+  .hero::after{display:none}
+  .cnt{padding:0 20px 64px}
+  #mb{display:-webkit-flex;display:flex}
+  .foot{-webkit-flex-direction:column;flex-direction:column;gap:8px}
+}
+@media(max-width:480px){
+  .hstats{gap:18px}
+  .g4>.c{-webkit-flex:1 1 140px;flex:1 1 140px}
+  .poc-row{-webkit-flex-direction:column;flex-direction:column}
+  table{font-size:12.5px}
+  thead th,tbody td{padding:9px 11px}
+}
+</style>
+</head>
+<body>
+
+<div id="prg"></div>
+<div id="ov"></div>
+
+<!-- NAVIGATION -->
+<nav class="nav" id="nav">
+  <div class="nav-head">
+    <div>
+      <span class="nav-logo">INTELLABOOKS</span>
+      <span class="nav-sub">HVAC Marketing Strategy 2026</span>
+    </div>
+    <button class="nav-x" id="nav-x" aria-label="Close">&#x2715;</button>
+  </div>
+
+  <span class="ng">Foundation</span>
+  <div class="ni on" data-t="s01"><span class="d"></span>Business Model</div>
+  <div class="ni" data-t="s02"><span class="d"></span>Target Avatars</div>
+  <div class="ni" data-t="s03"><span class="d"></span>Niche Selection and Proof</div>
+  <div class="ni" data-t="s04"><span class="d"></span>The Offer</div>
+  <div class="ni" data-t="s05"><span class="d"></span>Funnel Architecture</div>
+
+  <span class="ng">Execution</span>
+  <div class="ni" data-t="s06"><span class="d"></span>Platform Strategy</div>
+  <div class="ni" data-t="s07"><span class="d"></span>Creative Strategy</div>
+  <div class="ni" data-t="s08"><span class="d"></span>HVAC Ad Hooks and Scripts</div>
+  <div class="ni" data-t="s09"><span class="d"></span>AI Qualification Script</div>
+  <div class="ni" data-t="s10"><span class="d"></span>365-Day Follow-Up Engine</div>
+  <div class="ni" data-t="s11"><span class="d"></span>Landing Page Role</div>
+
+  <span class="ng">Scale</span>
+  <div class="ni" data-t="s12"><span class="d"></span>Lead Delivery System</div>
+  <div class="ni" data-t="s13"><span class="d"></span>Plumbing, Roofing, Solar <span class="nb nb-f">P2</span></div>
+  <div class="ni" data-t="s14"><span class="d"></span>KPIs and Benchmarks</div>
+  <div class="ni" data-t="s15"><span class="d"></span>8-Week Execution Plan</div>
+</nav>
+
+<!-- MAIN -->
+<div class="main">
+  <div class="hero">
+    <div class="htags">
+      <span class="ht ht-b">Prepared by Muhammad Usman</span>
+      <span class="ht ht-f">EvrythingAI, Head of Marketing</span>
+      <span class="ht ht-l">March 2026</span>
+      <span class="ht ht-g">Confidential</span>
+    </div>
+    <h1>HVAC MARKETING<br><em>STRATEGY 2026</em></h1>
+    <p>A complete paid media and AI funnel strategy for IntellaBooks: generate, qualify, and deliver HVAC homeowner leads in Texas, validate the model at scale, and build the proof that powers the Phase 2 expansion into Plumbing, Roofing, and Solar.</p>
+    <div class="hstats">
+      <div class="hs"><span class="n">$27</span><span class="l">Min HVAC CPL (TX)</span></div>
+      <div class="hs"><span class="n">10s</span><span class="l">AI Response Time</span></div>
+      <div class="hs"><span class="n">365</span><span class="l">Day Follow-Up Engine</span></div>
+      <div class="hs"><span class="n">3.69x</span><span class="l">HVAC Heating ROAS (Google)</span></div>
+    </div>
+  </div>
+
+  <div class="cnt">
+
+    <!-- 01 BUSINESS MODEL -->
+    <div class="sec" id="s01">
+      <div class="sh"><span class="sn">01</span>
+        <div><div class="st">BUSINESS <em>MODEL</em></div>
+        <div class="sd">The two-phase architecture that powers IntellaBooks from lead generation through platform sales</div></div>
+      </div>
+
+      <p class="body">IntellaBooks is a Texas-based B2B AI automation company built by founders Alicia Martin and Xavier Sneed. The platform delivers AI-driven voice qualification, automated SMS and email follow-up, CRM pipeline management, and appointment booking under the IntellaBooks brand. The go-to-market model operates in two structured phases, anchored on a single strategic principle: <strong>validate the system internally before selling it externally.</strong></p>
+
+      <div class="g2">
+        <div class="c tl">
+          <span class="ico">📡</span>
+          <h4>Phase 1: Performance Lead Generation</h4>
+          <p>IntellaBooks runs paid campaigns targeting homeowners across specific home service verticals. The AI system contacts every lead within 10 seconds of opt-in, qualifies the job, and packages the outcome. Those qualified leads are sold directly to local contractors in the same niche. Every campaign produces real CPL data, real conversion rates, and real proof that the funnel works before the platform is ever offered to the market.</p>
+        </div>
+        <div class="c tg">
+          <span class="ico">🚀</span>
+          <h4>Phase 2: Platform Sales to Contractors</h4>
+          <p>The same contractors who bought leads in Phase 1 become the platform buyers in Phase 2. The conversation shifts from "here are leads" to "here is the system that generated them." Contractors receive a fully branded CRM, AI caller, and automated follow-up engine under their own name. The Phase 1 results are the proof of concept that makes this conversation easy to close.</p>
+        </div>
+      </div>
+
+      <div class="co l">
+        <span class="cl">Core Strategic Principle</span>
+        <strong>If the system cannot generate results for IntellaBooks, it cannot be sold to clients.</strong> Every lead generated, every CPL achieved, and every qualified appointment booked in Phase 1 becomes documented evidence that makes the Phase 2 platform offer undeniable. The lead business and the software business are one compounding flywheel.
+      </div>
+    </div>
+
+    <!-- 02 AVATARS -->
+    <div class="sec" id="s02">
+      <div class="sh"><span class="sn">02</span>
+        <div><div class="st">TARGET <em>AVATARS</em></div>
+        <div class="sd">Two distinct customer profiles: who sees the ads and who buys the outcome</div></div>
+      </div>
+
+      <p class="body">The IntellaBooks model is two-sided. Understanding precisely who occupies each side is the foundation of every creative decision, every AI script line, and every sales conversation. Conflating the two is the single most common mistake in a model like this one. The ads speak to homeowners. The revenue comes from contractors. They are never addressed with the same message.</p>
+
+      <div class="g2">
+        <div class="c tb">
+          <span class="ico">🏠</span>
+          <h4>Avatar A: The Texas Homeowner</h4>
+          <p>Homeowners aged 30 to 65 across DFW, Houston, San Antonio, and Austin experiencing an active HVAC issue. Their AC stopped cooling in July. Their heater failed in January. They are not comparing prices or reading reviews. They are searching for the first company that responds. Speed and trust are the only two variables that matter to them at that moment. The ad, the form, and the AI call are all designed for this person.</p>
+        </div>
+        <div class="c tf">
+          <span class="ico">🔧</span>
+          <h4>Avatar B: The HVAC Contractor</h4>
+          <p>Owner-operated HVAC companies in Texas generating $300K to $3M annually. Operationally stretched during peak season. Losing jobs because follow-up is too slow or after-hours calls go unanswered. Skeptical of agencies because they have been burned before. They buy qualified leads in Phase 1 because the proof is immediate. They buy the platform in Phase 2 because the proof is already in their revenue.</p>
+        </div>
+      </div>
+
+      <div class="co g">
+        <span class="cl">Critical Distinction</span>
+        Every ad script, every hook, and every AI call in Phase 1 is written for <strong>Avatar A.</strong> The homeowner is the audience. The contractor is the customer. The platform sale targets <strong>Avatar B</strong> exclusively. These two messages must never appear in the same creative.
+      </div>
+    </div>
+
+    <!-- 03 NICHE SELECTION AND PROOF OF CONCEPT -->
+    <div class="sec" id="s03">
+      <div class="sh"><span class="sn">03</span>
+        <div><div class="st">NICHE SELECTION <em>AND PROOF OF CONCEPT</em></div>
+        <div class="sd">Why HVAC is the validated starting point and what the market data says about every alternative</div></div>
+      </div>
+
+      <div class="ph b">
+        <span class="ph-n">P1</span>
+        <div class="ph-i">
+          <h4>HVAC: The Recommended Phase 1 Niche</h4>
+          <p>The strongest combination of lead volume, conversion speed, and CPL efficiency in the Texas home service market. HVAC represents the clearest path to a validated, documented, scalable funnel within the shortest possible timeframe.</p>
+        </div>
+      </div>
+
+      <p class="body">Before a dollar is spent on advertising, IntellaBooks needs to answer one question: which niche gives us the highest probability of producing documented results the fastest? The answer comes from the data, not from preference. The table below compares HVAC, Plumbing, Roofing, and Solar across every dimension that affects campaign performance.</p>
+
+      <div class="tw">
+        <table>
+          <thead><tr><th>Metric</th><th>HVAC</th><th>Plumbing</th><th>Roofing</th><th>Solar</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>Texas CPL Range (Meta)</td>
+              <td class="tl2">$27 to $80</td>
+              <td class="tl2">$30 to $80</td>
+              <td class="tf2">$80 to $180</td>
+              <td class="tf2">$80 to $200+</td>
+            </tr>
+            <tr>
+              <td>Google Search CPL (Jan 2026)</td>
+              <td class="tl2">$104 blended avg</td>
+              <td class="tl2">$167 non-branded</td>
+              <td class="tf2">$150 to $350</td>
+              <td class="tf2">$120 to $300+</td>
+            </tr>
+            <tr>
+              <td>Lead Conversion Rate</td>
+              <td class="tl2">3 to 7%</td>
+              <td class="tl2">12 to 16%</td>
+              <td class="tg2">3 to 7%</td>
+              <td class="tf2">2 to 5%</td>
+            </tr>
+            <tr>
+              <td>Homeowner Decision Speed</td>
+              <td class="tl2">Hours to days</td>
+              <td class="tl2">Minutes to hours</td>
+              <td class="tg2">Days to weeks</td>
+              <td class="tf2">4 to 8 weeks</td>
+            </tr>
+            <tr>
+              <td>Texas Demand Pattern</td>
+              <td class="tl2">Year-round, peaks summer</td>
+              <td class="tl2">Year-round, recession-proof</td>
+              <td class="tg2">Storm-dependent</td>
+              <td class="tg2">Year-round but slow cycle</td>
+            </tr>
+            <tr>
+              <td>Google ROAS (Jan 2026 data)</td>
+              <td class="tl2">3.69x (heating repair)</td>
+              <td class="tl2">2.72x closed ROAS</td>
+              <td class="tg2">Variable, storm-driven</td>
+              <td class="tf2">Long cycle, harder to measure</td>
+            </tr>
+            <tr>
+              <td>Average Job Value (TX)</td>
+              <td class="tl2">$300 to $8,000+</td>
+              <td class="tg2">$200 to $2,500</td>
+              <td class="tl2">$8,000 to $25,000</td>
+              <td class="tl2">$15,000 to $50,000</td>
+            </tr>
+            <tr>
+              <td>Meta Ad Policy Complexity</td>
+              <td class="tl2">Low</td>
+              <td class="tl2">Low</td>
+              <td class="tg2">Medium</td>
+              <td class="tf2">High, review friction</td>
+            </tr>
+            <tr>
+              <td>AI Qualification Complexity</td>
+              <td class="tl2">Low, 4 simple qualifiers</td>
+              <td class="tl2">Low, emergency-driven</td>
+              <td class="tg2">Medium, inspection-based</td>
+              <td class="tf2">High, ownership, roof, credit</td>
+            </tr>
+            <tr>
+              <td>Optimization Window</td>
+              <td class="tl2">2 to 4 weeks</td>
+              <td class="tl2">2 to 3 weeks</td>
+              <td class="tg2">4 to 6 weeks</td>
+              <td class="tf2">6 to 10 weeks</td>
+            </tr>
+            <tr>
+              <td>Recommended Phase</td>
+              <td class="tl2">Phase 1: Start here</td>
+              <td class="tl2">Phase 2: Second niche</td>
+              <td class="tg2">Phase 2: After validation</td>
+              <td class="tg2">Phase 2: After validation</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="body" style="margin-top:22px;"><strong>The Strategic Rationale:</strong> HVAC is the optimal starting point because it offers a consistent year-round demand cycle in Texas, a proven CPL that reaches profitability at $27 on the low end, a 2 to 4 week optimization window, and a homeowner decision cycle measured in hours rather than weeks. It is neither the easiest niche nor the highest-ticket, but it is the most predictable. Predictability at the validation stage is worth more than any other variable. Once HVAC is proven, Plumbing follows immediately as the second niche given its even faster conversion cycle. Roofing and Solar are the right long-term targets and are planned for Phase 2 once the system has documented results and a proven playbook behind it.</p>
+
+      <div class="poc">
+        <span class="poc-head">Proof of Concept Targets: HVAC Phase 1 (TX Market)</span>
+        <div class="poc-row">
+          <div class="poc-cell">
+            <span class="l">Target CPL</span>
+            <span class="n" style="color:var(--lime)">$27 to $80</span>
+            <span class="v">Texas Meta campaigns, optimized. Google RSA: $104 blended avg (Jan 2026 benchmark).</span>
+          </div>
+          <div class="poc-cell">
+            <span class="l">AI Contact Rate</span>
+            <span class="n" style="color:var(--ice)">70%+</span>
+            <span class="v">Minimum threshold before scaling budget. Benchmark: 89% achieved by top campaigns.</span>
+          </div>
+          <div class="poc-cell">
+            <span class="l">Lead to Qualification</span>
+            <span class="n" style="color:var(--gold)">25 to 40%</span>
+            <span class="v">Homeowners who confirm issue, location, and availability on the AI call.</span>
+          </div>
+          <div class="poc-cell">
+            <span class="l">Funnel Validated When</span>
+            <span class="n" style="color:var(--lime)">10 Leads</span>
+            <span class="v">10 qualified leads delivered with CPL under target. Phase 2 preparation begins immediately.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 04 THE OFFER -->
+    <div class="sec" id="s04">
+      <div class="sh"><span class="sn">04</span>
+        <div><div class="st">THE <em>OFFER</em></div>
+        <div class="sd">Outcome-first offer statements for every audience at every phase, built to be undeniable</div></div>
+      </div>
+
+      <p class="body">An offer is not a description of what the platform does. It is a specific, measurable promise of what the customer receives. The rule is absolute: every ad, every AI call, and every follow-up message leads with the outcome, not the mechanism. <strong>"We have AI voice agents"</strong> is a feature. <strong>"Get a licensed HVAC technician to your door fast without waiting on hold"</strong> is an offer. Every audience requires its own version of this statement.</p>
+
+      <div class="pq">The AI call replaced the landing page. The conversation is the conversion event. Make the offer undeniable before the homeowner ever thinks about the next company on the list.</div>
+
+      <div class="g2">
+        <div class="c tb">
+          <span class="ico">🏠</span>
+          <h4>Phase 1 Ad Offer: To the Homeowner</h4>
+          <p><em>"Get a licensed local HVAC technician to your door fast. No hold music, no callbacks the next morning. Tell us what is happening and we will have someone contact you within minutes, day or night."</em></p>
+        </div>
+        <div class="c tl">
+          <span class="ico">🔧</span>
+          <h4>Phase 1 Lead Sale: To the Contractor</h4>
+          <p><em>"We deliver AI-screened, phone-qualified HVAC homeowner leads in your Texas service area. Every lead has confirmed their issue, location, and availability before you ever talk to them. You close the job."</em></p>
+        </div>
+      </div>
+
+      <div class="g2">
+        <div class="c tg">
+          <span class="ico">⚡</span>
+          <h4>Phase 2 Platform Offer: To the Contractor</h4>
+          <p><em>"The system that generated your leads is now available for your business. Every inbound lead gets contacted in 10 seconds and followed up automatically for a full year. No setters, no missed jobs, no manual work."</em></p>
+        </div>
+        <div class="c tf">
+          <span class="ico">📈</span>
+          <h4>Phase 2 Roofing and Solar Lead Sale</h4>
+          <p><em>"We deliver free inspection-ready homeowner leads for roofing, and pre-qualified solar prospects screened for home ownership and qualifying energy use, before you ever pick up the phone."</em></p>
+        </div>
+      </div>
+
+      <div class="dv"></div>
+      <p class="body"><strong>Four Mechanisms That Power Every Ad and Call Script:</strong></p>
+      <ul class="cl2">
+        <li><strong>10-Second AI Response.</strong> The AI calls every lead before they close the browser tab. In home services, the first company to respond wins the job. Always. Response time within 5 minutes improves conversion by up to 391% over a 30-minute response.</li>
+        <li><strong>100K Daily Call Intelligence.</strong> Platform-wide call volume across all home service categories identifies real buying intent patterns in real time, informing which leads are ready to close and which need nurture.</li>
+        <li><strong>365-Day Automated Follow-Up.</strong> The AI follows up with every unclosed lead through calls, SMS, and email for a full year. 37% of all closed customers come from leads older than 90 days. The follow-up engine captures what every competitor abandons.</li>
+        <li><strong>Dead Lead Revival Engine.</strong> The CRM database is treated as an active asset, not an archive. AI re-engagement campaigns target contacts who did not convert on first contact with seasonal triggers and updated offers, converting pipeline into revenue months after the original opt-in.</li>
+      </ul>
+    </div>
+
+    <!-- 05 FUNNEL ARCHITECTURE -->
+    <div class="sec" id="s05">
+      <div class="sh"><span class="sn">05</span>
+        <div><div class="st">FUNNEL <em>ARCHITECTURE</em></div>
+        <div class="sd">The complete six-step system from ad impression to qualified lead delivered to contractor</div></div>
+      </div>
+
+      <div class="funnel">
+        <div class="fs">
+          <div class="fl">
+            <div class="fc" style="background:rgba(0,229,122,.12);color:var(--lime);border:1.5px solid rgba(0,229,122,.3)">1</div>
+            <div class="fline"></div>
+          </div>
+          <div class="fb">
+            <h5>Paid Ads on Meta and Google</h5>
+            <p>UGC video and responsive search ads running simultaneously across Meta (Facebook and Instagram) and Google. Each platform plays a distinct role: Meta generates volume and builds audiences through native lead forms. Google Responsive Search Ads capture active high-intent homeowner searches in the moment of need. Both feed the same AI qualification pipeline.</p>
+            <div class="ftags"><span class="ft b">Meta Ads Manager</span><span class="ft l">Google RSA</span><span class="ft b">Facebook and Instagram</span></div>
+          </div>
+        </div>
+
+        <div class="fs">
+          <div class="fl">
+            <div class="fc" style="background:rgba(0,229,122,.12);color:var(--lime);border:1.5px solid rgba(0,229,122,.3)">2</div>
+            <div class="fline"></div>
+          </div>
+          <div class="fb">
+            <h5>Native Lead Capture: No Landing Page at This Stage</h5>
+            <p>On Meta, homeowners submit an Instant Form without leaving the platform. Four fields maximum: First Name, Phone, Email, City. On Google RSA, the ad drives to a minimal conversion page. Native on-platform forms consistently outperform landing page redirects because the algorithm rewards keeping users within the platform environment. Every additional form field reduces completion rate by approximately 10%.</p>
+            <div class="ftags"><span class="ft l">Meta Instant Forms</span><span class="ft b">4 Fields Maximum</span><span class="ft l">Google RSA Conversion Page</span></div>
+          </div>
+        </div>
+
+        <div class="fs">
+          <div class="fl">
+            <div class="fc" style="background:rgba(0,207,255,.12);color:var(--ice);border:1.5px solid rgba(0,207,255,.3)">3</div>
+            <div class="fline"></div>
+          </div>
+          <div class="fb">
+            <h5>Lead Syncs Instantly into IntellaBooks CRM</h5>
+            <p>The moment any form is submitted or any ad conversion fires, the contact is pushed into the IntellaBooks CRM via automated webhook. Pipeline stage is set, source tagged by platform (Meta or Google), niche tagged as HVAC, and city field populated. Zero manual input. The automation is instantaneous and channel-agnostic.</p>
+            <div class="ftags"><span class="ft b">IntellaBooks CRM</span><span class="ft f">Instant Webhook</span><span class="ft b">Auto-Tagged by Source</span></div>
+          </div>
+        </div>
+
+        <div class="fs">
+          <div class="fl">
+            <div class="fc" style="background:rgba(255,77,46,.12);color:var(--fire);border:1.5px solid rgba(255,77,46,.3)">4</div>
+            <div class="fline"></div>
+          </div>
+          <div class="fb">
+            <h5>AI Calls the Homeowner Within 10 Seconds</h5>
+            <p>The AI voice agent fires an outbound call the moment the lead enters the CRM. It qualifies the homeowner across four dimensions: HVAC issue type, location confirmation, urgency level, and homeownership status. If the homeowner does not answer, the 365-day follow-up sequence activates immediately through calls, SMS, and email. No lead leaves the system without being worked.</p>
+            <div class="ftags"><span class="ft f">AI Voice Caller</span><span class="ft f">10-Second Trigger</span><span class="ft b">Full Qualification</span></div>
+          </div>
+        </div>
+
+        <div class="fs">
+          <div class="fl">
+            <div class="fc" style="background:rgba(0,229,122,.12);color:var(--lime);border:1.5px solid rgba(0,229,122,.3)">5</div>
+            <div class="fline"></div>
+          </div>
+          <div class="fb">
+            <h5>Qualified Lead Packaged and Delivered to Contractor</h5>
+            <p>Every qualified lead is delivered to the HVAC contractor partner in real time with a complete data package: name, phone, email, city, issue type, urgency rating, homeownership confirmation, and AI call transcript summary. The contractor receives a warm, pre-qualified contact, not a cold form submission. IntellaBooks captures the lead revenue. The contractor closes the job.</p>
+            <div class="ftags"><span class="ft l">Real-Time Delivery</span><span class="ft l">Full Lead Data Package</span></div>
+          </div>
+        </div>
+
+        <div class="fs">
+          <div class="fl">
+            <div class="fc" style="background:rgba(255,185,48,.12);color:var(--gold);border:1.5px solid rgba(255,185,48,.3)">6</div>
+          </div>
+          <div class="fb">
+            <h5>Post-Lead Trust Page Sent to Homeowner</h5>
+            <p>After the AI qualification call, a confirmation SMS is sent with a link to the IntellaBooks trust page. This page is sent only after the lead is captured, never as a cold traffic destination. It confirms the technician matching process, reduces the chance the homeowner calls a competitor while waiting, and provides a direct re-contact option. A full VSL script will be provided for the video element of this page.</p>
+            <div class="ftags"><span class="ft g">Post-Lead Only</span><span class="ft g">Trust Amplifier</span><span class="ft g">VSL Script Provided</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="co f">
+        <span class="cl">The Model Shift</span>
+        <strong>Old approach:</strong> Ad, landing page, hope the homeowner calls back.<br>
+        <strong>Current model:</strong> Ad, native lead form, AI calls homeowner in 10 seconds, lead qualified and packaged, delivered to contractor in minutes. The phone call is now the sales page. The landing page is now the confirmation step that happens after the sale is made.
+      </div>
+    </div>
+
+    <!-- 06 PLATFORM STRATEGY -->
+    <div class="sec" id="s06">
+      <div class="sh"><span class="sn">06</span>
+        <div><div class="st">PLATFORM <em>STRATEGY</em></div>
+        <div class="sd">Meta and Google running in parallel from day one: the case for both, and how each serves a distinct role</div></div>
+      </div>
+
+      <p class="body">The strongest Phase 1 strategy runs Meta and Google simultaneously from the first day of launch. They are not competing for the same audience. They are capturing different segments of the same homeowner population at different moments in their decision journey. Running both from the start produces faster data, broader audience coverage, and a more defensible lead volume for contractor partners.</p>
+
+      <div class="g2">
+        <div class="c tl">
+          <span class="ico">📱</span>
+          <h4>Meta: Facebook and Instagram</h4>
+          <p><strong style="color:var(--text)">Role: Demand creation and volume generation.</strong><br><br>Meta reaches homeowners before they are actively searching. The native lead form captures them within the platform environment where the algorithm is optimized for in-app conversion. Lower CPL than Google, higher volume, and the retargeting and lookalike audience infrastructure compounds over time. Particularly effective for reaching homeowners with seasonal HVAC concerns before they hit emergency status.</p>
+        </div>
+        <div class="c tb">
+          <span class="ico">🔍</span>
+          <h4>Google Responsive Search Ads</h4>
+          <p><strong style="color:var(--text)">Role: High-intent demand capture.</strong><br><br>Google RSA captures homeowners who are already in pain and actively searching for a solution. When someone searches "AC repair near me" or "HVAC company Houston," they are ready to book. Google RSA allows multiple headline and description combinations to be tested simultaneously, with the algorithm surfacing the highest-performing combinations automatically. Highest-intent leads, fastest close cycle, and the strongest single-keyword ROI in home services.</p>
+        </div>
+      </div>
+
+      <div class="tw" style="margin-top:22px">
+        <table>
+          <thead><tr><th>Platform</th><th>Role</th><th>Starting Daily Budget</th><th>Lead Type</th><th>Key Advantage</th></tr></thead>
+          <tbody>
+            <tr><td>Meta: Facebook and Instagram</td><td class="tl2">Demand creation</td><td class="tb2">$30 to $50 per day</td><td>Form opt-ins, retargeting, lookalike audiences</td><td>Volume, CPL efficiency, audience building</td></tr>
+            <tr><td>Google Responsive Search Ads</td><td class="tb2">Demand capture</td><td class="tb2">$20 to $40 per day</td><td>Active search clicks, high-intent homeowners</td><td>Intent strength, conversion speed, ROAS</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="co">
+        <span class="cl">Budget Split Recommendation</span>
+        Launch with a <strong>60% Meta / 40% Google RSA</strong> split at the start. Meta exits the learning phase faster with volume and produces the initial audience pool needed for retargeting. Once Meta CPL is stable and the retargeting audience reaches 500 to 1,000 contacts, rebalance toward a 50/50 split and introduce Google LSA as an additional channel for emergency-intent searches. Adjust every three weeks based on platform-level CPL performance.
+      </div>
+    </div>
+
+    <!-- 07 CREATIVE STRATEGY -->
+    <div class="sec" id="s07">
+      <div class="sh"><span class="sn">07</span>
+        <div><div class="st">CREATIVE <em>STRATEGY</em></div>
+        <div class="sd">The three-tier creative ladder: how to build, test, and scale ad content that converts</div></div>
+      </div>
+
+      <p class="body">Attention spans on Meta are <strong>1.8 seconds</strong> as of 2026. The hook must earn the scroll before anything else is seen. Every piece of creative in this strategy is built to win that 1.8-second test. Google RSA operates on keyword intent rather than visual interruption, requiring precision in headline construction and message-to-search-query alignment. The two platforms require entirely different creative approaches but carry the same strategic offer.</p>
+
+      <div class="csteps">
+        <div class="cs">
+          <div class="cs-n">1</div>
+          <div class="cs-info">
+            <h4>Static Ads: Top-of-Funnel Awareness and Data Seeding</h4>
+            <p>Text-heavy static image ads on Meta that lead directly with the homeowner's pain point. Fast to produce, cost-effective to run, and critical for building the initial audience signals Meta needs to begin optimizing delivery. Run simultaneously with video from launch day. The primary purpose at this stage is audience construction for retargeting, not conversion volume.</p>
+            <span class="cs-tag">Launch Day 1</span>
+          </div>
+        </div>
+        <div class="cs">
+          <div class="cs-n">2</div>
+          <div class="cs-info">
+            <h4>UGC Video: Core Lead Generation Creative</h4>
+            <p>30 to 60 second UGC-style videos. Hook must land within the first 1.8 seconds. The production process: one body script, 10 hook variations filmed as separate standalone intros by UGC creators. The top three hook-plus-body combinations run simultaneously. The weakest performer is cut after 1,000 impressions. The winner scales. Creative refresh happens monthly to prevent audience fatigue. This is the primary lead driver on Meta.</p>
+            <span class="cs-tag">Launch Week 2</span>
+          </div>
+        </div>
+        <div class="cs">
+          <div class="cs-n">3</div>
+          <div class="cs-info">
+            <h4>Cinematic High-Impact Ads: Warm Audience Conversion</h4>
+            <p>Fully produced cinematic ads deployed exclusively to warm audiences (video viewers, form engagers) and lookalike pools once the retargeting audience exceeds 1,000 contacts. Not a launch creative, but the most powerful creative in the arsenal when deployed at the right stage. High emotional impact, strong proof elements, and a direct call-to-action. The audience has already seen the brand. This creative closes them.</p>
+            <span class="cs-tag">Post-Validation (Week 6 onward)</span>
+          </div>
+        </div>
+        <div class="cs">
+          <div class="cs-n">4</div>
+          <div class="cs-info">
+            <h4>Google RSA: Intent-Matched Headline Testing</h4>
+            <p>For Google Responsive Search Ads, 8 to 10 headline variants and 3 to 4 description variants are loaded per campaign. Google's algorithm surfaces the highest-performing combinations automatically based on search query match. Segment HVAC campaigns by service line: AC repair, heating repair, and HVAC maintenance run as separate campaigns, not under one generic HVAC umbrella. Service-line segmentation reduces CPL by 15 to 25% compared to broad campaigns.</p>
+            <span class="cs-tag">Launch Day 1 alongside Meta</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 08 HVAC AD HOOKS AND SCRIPTS -->
+    <div class="sec" id="s08">
+      <div class="sh"><span class="sn">08</span>
+        <div><div class="st">HVAC AD HOOKS <em>AND SCRIPTS</em></div>
+        <div class="sd">Ten homeowner-facing Meta hooks and five complete ad scripts built on the Hook, Problem, Mechanism, Proof, CTA framework</div></div>
+      </div>
+
+      <p class="body">Every piece of creative below is written for <strong>Avatar A: the Texas homeowner</strong> experiencing an active HVAC issue. The ad speaks to their problem and their urgency. Not to the HVAC business owner. Not to the contractor. To the homeowner. This distinction is non-negotiable and must be maintained across every creative asset produced for Phase 1.</p>
+
+      <div class="tw">
+        <table>
+          <thead><tr><th>#</th><th>Hook Type</th><th>Opening Line</th><th>On-Screen Text</th></tr></thead>
+          <tbody>
+            <tr><td class="tb2">01</td><td>2am Emergency</td><td>It is 2am. Your AC just stopped. Here is what to do right now.</td><td class="tf2">THIS SHOULD NOT WAIT</td></tr>
+            <tr><td class="tb2">02</td><td>Speed Proof</td><td>We connected a Texas homeowner to a licensed HVAC tech in under 8 minutes. Here is exactly how.</td><td>8 MINUTES. NOT TOMORROW.</td></tr>
+            <tr><td class="tb2">03</td><td>Frustration Hook</td><td>Tired of calling HVAC companies and getting voicemail? There is a faster way now.</td><td>NO MORE VOICEMAIL</td></tr>
+            <tr><td class="tb2">04</td><td>Texas Heat</td><td>Texas summers are brutal. An AC that stops working is not a minor inconvenience.</td><td>TEXAS HEAT IS NO JOKE</td></tr>
+            <tr><td class="tb2">05</td><td>Social Proof</td><td>My AC broke on a Saturday. I had a tech at my door by noon. Here is how I found them so fast.</td><td>SATURDAY. NOON. FIXED.</td></tr>
+            <tr><td class="tb2">06</td><td>First Caller Wins</td><td>I called four HVAC companies. Three went to voicemail. One called me back in 6 minutes. Guess who I hired.</td><td>FIRST CALL WINS EVERY TIME</td></tr>
+            <tr><td class="tb2">07</td><td>Trust Hook</td><td>Before you let any HVAC tech into your home, make sure they are actually licensed in Texas.</td><td>IS YOUR TECH LICENSED?</td></tr>
+            <tr><td class="tb2">08</td><td>Prevention</td><td>HVAC techs say most emergency breakdowns could have been avoided with one simple maintenance call.</td><td>STOP THE BREAKDOWN FIRST</td></tr>
+            <tr><td class="tb2">09</td><td>Cost Shock</td><td>Ignoring that strange noise from your HVAC unit is costing you far more than the repair would.</td><td>THAT NOISE IS COSTING YOU</td></tr>
+            <tr><td class="tb2">10</td><td>Relief Close</td><td>Finding a reliable HVAC tech in Texas when you actually need one should not feel this hard. Now it does not.</td><td class="tl2">HELP IS CLOSER THAN YOU THINK</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="sc">
+        <div class="sch"><h5>Script 01: The 2am Emergency</h5><span class="ht ht-l">UGC Video: Priority 1</span></div>
+        <div class="scb">
+          <div class="sl2"><span class="lbl hk">Hook</span><div class="st2">It is 2am. Your AC just stopped working. It is 98 degrees in Texas. And every HVAC company you call goes straight to voicemail. Here is what happened when one homeowner used a different approach.</div></div>
+          <div class="sl2"><span class="lbl pr">Problem</span><div class="st2">AC breakdowns do not wait for business hours. But most HVAC companies operate like they do. You are left sweating, stressing, and watching the temperature climb while you leave message after message hoping someone calls back in the morning.</div></div>
+          <div class="sl2"><span class="lbl mc">How It Works</span><div class="st2">IntellaBooks connects Texas homeowners to licensed, available HVAC technicians within minutes, any time of day or night. Fill out a quick form, the system contacts you almost immediately, and a tech is dispatched to your location. No hold music. No callbacks tomorrow. Fast help when you actually need it.</div></div>
+          <div class="sl2"><span class="lbl pf">Proof</span><div class="st2">Texas homeowners are getting matched to licensed HVAC technicians in under 10 minutes, even at 2am on weekends. The first company to show up gets the job. Using IntellaBooks means that is always you.</div></div>
+          <div class="sl2"><span class="lbl ct">CTA</span><div class="st2">If your AC is giving you trouble right now, or you want to know who to call before it does, tap below and get connected in minutes.</div></div>
+        </div>
+      </div>
+
+      <div class="sc">
+        <div class="sch"><h5>Script 02: First Caller Wins</h5><span class="ht ht-b">UGC Video</span></div>
+        <div class="scb">
+          <div class="sl2"><span class="lbl hk">Hook</span><div class="st2">I called four HVAC companies when my AC stopped cooling. Three went to voicemail. One called me back in 6 minutes. Guess which one I hired, and guess who my neighbors called the next time they had a problem.</div></div>
+          <div class="sl2"><span class="lbl pr">Problem</span><div class="st2">Most Texas homeowners waste 30 to 60 minutes trying to reach an HVAC tech during a breakdown. You call, you wait, the house gets hotter, the frustration builds. It should not be this complicated to get help with your own home.</div></div>
+          <div class="sl2"><span class="lbl mc">How It Works</span><div class="st2">IntellaBooks connects you with licensed local HVAC technicians who are actually available right now. One form, one fast call back, one problem handled. No more calling around hoping someone picks up before your family overheats.</div></div>
+          <div class="sl2"><span class="lbl pf">Proof</span><div class="st2">Texas homeowners are getting HVAC techs on the phone in under 10 minutes. Broken AC units, heating failures, system maintenance. Same-day service without the runaround that most companies put you through.</div></div>
+          <div class="sl2"><span class="lbl ct">CTA</span><div class="st2">Next time you need HVAC help, do not spend an hour calling around. Click below and get matched to someone available in your area right now.</div></div>
+        </div>
+      </div>
+
+      <div class="sc">
+        <div class="sch"><h5>Script 03: The Saturday Fix</h5><span class="ht ht-l">Social Proof</span></div>
+        <div class="scb">
+          <div class="sl2"><span class="lbl hk">Hook</span><div class="st2">My AC died on a Saturday morning in July. I live in Texas. I thought I was going to spend the entire weekend sweating and leaving voicemails. I was completely wrong.</div></div>
+          <div class="sl2"><span class="lbl pr">Problem</span><div class="st2">Weekend HVAC emergencies feel impossible because most companies either do not answer or charge enormous after-hours fees just to walk through your door. You feel trapped, overheated, and like there are no good options left.</div></div>
+          <div class="sl2"><span class="lbl mc">How It Works</span><div class="st2">I found IntellaBooks, filled out a quick form, got a call back in about 8 minutes, and had a licensed tech at my door before noon on a Saturday. The whole thing was handled by 1pm. No emergency markup, no drama, no waiting until Monday.</div></div>
+          <div class="sl2"><span class="lbl pf">Proof</span><div class="st2">Licensed local HVAC technicians. Available on weekends. Fast response. Reasonable pricing. That combination is rare in Texas, and IntellaBooks connects you with exactly that every time.</div></div>
+          <div class="sl2"><span class="lbl ct">CTA</span><div class="st2">Save this for the next time your AC decides to quit. Or click below right now if you have something going on today. Help is faster than you think.</div></div>
+        </div>
+      </div>
+
+      <div class="sc">
+        <div class="sch"><h5>Script 04: The Noise That Costs You</h5><span class="ht ht-g">Awareness and Prevention</span></div>
+        <div class="scb">
+          <div class="sl2"><span class="lbl hk">Hook</span><div class="st2">That strange noise your HVAC unit is making? Ignoring it is not saving you money. It is costing you significantly more than a repair would. Here is the number most homeowners never see coming.</div></div>
+          <div class="sl2"><span class="lbl pr">Problem</span><div class="st2">Small HVAC issues become expensive emergencies when they are ignored. A loose belt becomes a burned motor. A dirty filter becomes a failed compressor. Homeowners know they should call someone but the hassle of finding a reliable tech keeps getting pushed off until it is an emergency.</div></div>
+          <div class="sl2"><span class="lbl mc">How It Works</span><div class="st2">IntellaBooks makes the call easy. Tell us what your HVAC system is doing and where you are, and we connect you to a licensed tech in your area who can take a look. Most minor issues are inexpensive to fix. The emergency replacement they prevent is not.</div></div>
+          <div class="sl2"><span class="lbl pf">Proof</span><div class="st2">Homeowners who catch small HVAC issues early spend an average of 4 to 8 times less than those who wait until the system fails completely. A $150 tune-up today prevents a $4,000 replacement in August.</div></div>
+          <div class="sl2"><span class="lbl ct">CTA</span><div class="st2">Got an HVAC issue you have been putting off? Tap below, tell us what is happening, and get connected to someone local who can look at it this week.</div></div>
+        </div>
+      </div>
+
+      <div class="sc">
+        <div class="sch"><h5>Script 05: Is Your Tech Actually Licensed?</h5><span class="ht ht-b">Trust and Education</span></div>
+        <div class="scb">
+          <div class="sl2"><span class="lbl hk">Hook</span><div class="st2">Quick question: the last HVAC tech you hired, were you sure they were actually licensed in Texas? Most homeowners never check. Here is why that matters more than you realize.</div></div>
+          <div class="sl2"><span class="lbl pr">Problem</span><div class="st2">Unlicensed HVAC technicians can void your home warranty, fail city inspections, and leave you holding the bill for work that fails a month later. When the system breaks and you need someone fast, you call whoever responds first, and you often have no idea who you are letting into your home.</div></div>
+          <div class="sl2"><span class="lbl mc">How It Works</span><div class="st2">Every HVAC technician in the IntellaBooks network is verified as licensed and insured before they are ever matched with a homeowner. When you submit a request, you know the person coming to your door has been screened. Fast and trustworthy should not be a trade-off you have to make.</div></div>
+          <div class="sl2"><span class="lbl pf">Proof</span><div class="st2">Texas homeowners are running into serious problems with unverified HVAC contractors found on generic listing sites. The network IntellaBooks uses does that screening before every match, in seconds, at no cost to you.</div></div>
+          <div class="sl2"><span class="lbl ct">CTA</span><div class="st2">Next time you need HVAC service, start with someone you can actually trust. Click below and get matched with a licensed, insured tech in your area today.</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 09 AI QUALIFICATION SCRIPT -->
+    <div class="sec" id="s09">
+      <div class="sh"><span class="sn">09</span>
+        <div><div class="st">AI QUALIFICATION <em>SCRIPT</em></div>
+        <div class="sd">The homeowner call script triggered within 10 seconds of every form submission</div></div>
+      </div>
+
+      <p class="body">The AI call is the most important touchpoint in the entire funnel. It fires within 10 seconds and has one purpose: make the homeowner feel like help is already on the way, while gathering the four data points needed to package and deliver a qualified lead. The tone is warm, fast, and reassuring. Not robotic. Not a pitch. A service call that has already started.</p>
+
+      <div class="co f">
+        <span class="cl">Non-Negotiable Rule</span>
+        The AI does not sell. It does not pitch features or make comparisons. The homeowner has already opted in. They want help. The AI's job is to confirm that help is coming and to capture the details that make the lead deliverable to a contractor. Every word in the script exists to reduce friction, not create it.
+      </div>
+
+      <div class="aicall">
+        <div class="aicall-head">AI Outbound Qualification Script: HVAC Homeowner</div>
+        <div class="aicall-body">
+          <div class="aistep b">
+            <span class="aistep-lbl">Opening</span>
+            <p>"Hi, is this [First Name]? This is IntellaBooks calling. You just submitted a request for HVAC help in [City]. I want to make sure we get the right person to you as fast as possible. Do you have about 60 seconds?"</p>
+          </div>
+          <div class="aistep f">
+            <span class="aistep-lbl">Issue Type Qualification</span>
+            <p>"Perfect. Can you tell me quickly what the system is doing? Is the AC not cooling, is there a heating issue, or is it something else like a strange noise or the system is not turning on at all?"</p>
+          </div>
+          <div class="aistep g">
+            <span class="aistep-lbl">Urgency and Ownership</span>
+            <p>"Got it. Would you say this is urgent, like you need someone today or tomorrow, or can it be scheduled later this week? And just to confirm, is this a home you own or rent?"</p>
+          </div>
+          <div class="aistep l">
+            <span class="aistep-lbl">Confirmation and Handoff</span>
+            <p>"Perfect. I have everything I need. I am matching you with a licensed HVAC technician in [City] right now. They will reach out to confirm a time within the next [X] minutes. I am also sending you a quick confirmation text with the details. Is the number I am calling the best one for them to use?"</p>
+          </div>
+          <div class="aistep" style="border-left:2px solid var(--plum);background:rgba(167,139,250,.04)">
+            <span class="aistep-lbl" style="color:var(--plum)">No Answer: Voicemail Drop</span>
+            <p>"Hi [First Name], this is IntellaBooks. You just requested HVAC help in [City]. We are already matching you with a licensed tech in your area. I am sending you a text right now with the next steps. Talk soon."</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="body"><strong>Lead data captured on every qualified call:</strong> Homeowner name, phone number, email, city and zip code, HVAC issue type (AC cooling failure, heating failure, system noise, system off), urgency level (today, this week, flexible), homeownership confirmation, and preferred contact method. All data is stored automatically in the IntellaBooks CRM and included in the lead delivery package.</p>
+    </div>
+
+    <!-- 10 FOLLOW-UP ENGINE -->
+    <div class="sec" id="s10">
+      <div class="sh"><span class="sn">10</span>
+        <div><div class="st">365-DAY <em>FOLLOW-UP ENGINE</em></div>
+        <div class="sd">The automated SMS, Email, and AI Call cadence that works every lead for a full year</div></div>
+      </div>
+
+      <p class="body">The follow-up engine is where the majority of revenue is made. Most companies call once or twice and stop. The industry data is clear: <strong>37% of all closed customers come from leads older than 90 days.</strong> A homeowner who did not convert in July may have solved the immediate problem another way. By October, when the heating system fails, they remember who stayed in touch. The 365-day engine ensures IntellaBooks is always that company.</p>
+
+      <div class="tl">
+        <div class="ti">
+          <div class="tm"><div class="td b"></div><div class="tlt"></div></div>
+          <div class="tc"><div class="tw2">Day 0, 0 to 10 Seconds</div><h5>AI Outbound Call 1</h5><p>Fires within 10 seconds of form submission across both Meta and Google sources. Full qualification script. Primary objective: qualify and confirm contractor callback. Secondary objective: capture issue data. If unanswered: voicemail drop and immediate SMS trigger both activate within 30 seconds.</p></div>
+        </div>
+        <div class="ti">
+          <div class="tm"><div class="td b"></div><div class="tlt"></div></div>
+          <div class="tc"><div class="tw2">Day 0, 2 Minutes After</div><h5>SMS 1: Immediate Confirmation</h5><p>"Hey [First Name], this is IntellaBooks. Your HVAC request just came through and we are matching you with a licensed tech in [City] right now. Here is your confirmation link: [link]. Reply any time with questions."</p></div>
+        </div>
+        <div class="ti">
+          <div class="tm"><div class="td b"></div><div class="tlt"></div></div>
+          <div class="tc"><div class="tw2">Day 0, 10 Minutes After</div><h5>Email 1: What Happens Next</h5><p>Subject: "Your HVAC request, here is what happens next." Under 120 words. Confirms the request, explains the matching process, and provides a single CTA to confirm details or re-request contact. Written as a service confirmation, not a marketing email.</p></div>
+        </div>
+        <div class="ti">
+          <div class="tm"><div class="td f"></div><div class="tlt"></div></div>
+          <div class="tc"><div class="tw2">Day 1, Morning</div><h5>AI Call 2 and SMS 2</h5><p>AI call: warm re-engage, not a hard follow-up. "Hey [First Name], following up on your HVAC request from yesterday. Still need help? I have a tech available in [City] today." SMS mirrors the message with a direct re-booking link attached.</p></div>
+        </div>
+        <div class="ti">
+          <div class="tm"><div class="td f"></div><div class="tlt"></div></div>
+          <div class="tc"><div class="tw2">Day 3</div><h5>Email 2: Helpful Content and Soft Re-Engage</h5><p>Subject line references the specific issue type from their submission. Short, practical tip relevant to their HVAC problem. Ends with a non-aggressive CTA: "Still need help? We can get someone to you this week." Provides value before asking for action again.</p></div>
+        </div>
+        <div class="ti">
+          <div class="tm"><div class="td g"></div><div class="tlt"></div></div>
+          <div class="tc"><div class="tw2">Day 7</div><h5>AI Call 3 and Soft Exit SMS</h5><p>AI call: conversational and low-pressure. SMS: "Hey [First Name], last check-in from IntellaBooks. If your HVAC situation is sorted, no worries at all. If you still need someone, here is your direct link: [link]. We are here when you need us."</p></div>
+        </div>
+        <div class="ti">
+          <div class="tm"><div class="td g"></div><div class="tlt"></div></div>
+          <div class="tc"><div class="tw2">Days 14, 30, 60, 90</div><h5>Seasonal Long-Term Nurture</h5><p>Monthly AI call re-engagement with Texas-specific seasonal triggers: spring AC tune-up reminder before June, filter change reminder in September, heating system check before December, pipe and system winterization alert in January. Re-qualify intent and re-offer technician matching. Continues until 365 days or explicit opt-out.</p></div>
+        </div>
+        <div class="ti">
+          <div class="tm"><div class="td l"></div></div>
+          <div class="tc"><div class="tw2">Day 365</div><h5>Final Re-Engagement or Lifecycle Archive</h5><p>"Hi [First Name], it has been a year since your HVAC request. If you ever need a licensed tech in [City] again, IntellaBooks is still here and still fast." Move to archive or restart the full cycle based on engagement history.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 11 LANDING PAGE -->
+    <div class="sec" id="s11">
+      <div class="sh"><span class="sn">11</span>
+        <div><div class="st">LANDING PAGE <em>ROLE</em></div>
+        <div class="sd">A post-lead trust amplifier: sent after opt-in, not before it</div></div>
+      </div>
+
+      <p class="body">The landing page serves one specific role in this funnel. It is delivered to the homeowner after they have submitted a form and the AI has attempted contact. Its function is to reduce the chance they call a competitor while waiting, confirm what happens next, and reinforce the decision they just made. Cold traffic does not land here. That is a structural decision, not a preference.</p>
+
+      <div class="pq">The landing page becomes dramatically more powerful when it appears after someone has already raised their hand. As a front-end conversion tool, it creates friction. As a post-lead confirmation, it creates confidence.</div>
+
+      <div class="g2">
+        <ul class="cl2">
+          <li><strong>Section 1: VSL (45 to 60 seconds).</strong> Short video showing the matching process and demonstrating the AI in action. Reinforces the homeowner's decision by showing exactly what is happening behind the scenes after they submit. A full VSL script will be provided for production.</li>
+          <li><strong>Section 2: What Happens Next.</strong> Three-step visual: submitted, matching in progress, tech will contact within minutes. This is the most important section for reducing no-shows. Uncertainty is the primary reason homeowners call a competitor after submitting.</li>
+          <li><strong>Section 3: Trust Signals.</strong> Licensed and insured network confirmation, Texas-based technician coverage, average response time displayed prominently. Proof that the homeowner made the right call.</li>
+        </ul>
+        <ul class="cl2">
+          <li><strong>Section 4: Re-Submit CTA.</strong> A one-tap re-contact option for homeowners who are not sure their submission was received. Routes back into the CRM and re-triggers the AI qualification call without creating a duplicate record.</li>
+          <li><strong>Section 5: FAQ.</strong> Three to five questions that address the most common reasons homeowners bail before the contractor calls: "Is there a fee to use this?" "Are techs in your network licensed?" "What if no one calls me back?" Eliminating these three objections at this stage has a direct impact on show rate.</li>
+          <li><strong>Section 6: Direct Contact Option.</strong> A text or call button for homeowners who want to speak to a human immediately. Routes to the same qualification flow, just initiated by the homeowner rather than the AI outbound system.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 12 LEAD DELIVERY -->
+    <div class="sec" id="s12">
+      <div class="sh"><span class="sn">12</span>
+        <div><div class="st">LEAD DELIVERY <em>SYSTEM</em></div>
+        <div class="sd">How IntellaBooks packages, prices, and delivers qualified leads to HVAC contractor partners</div></div>
+      </div>
+
+      <p class="body">Before the first ad campaign goes live, at least one confirmed HVAC contractor partner must be in place and ready to receive leads in the target market. Without a buyer for the first leads, the funnel has no revenue outcome and no case study to build on. Identifying and confirming the contractor partner relationship is a pre-launch requirement, not an afterthought.</p>
+
+      <div class="g2">
+        <div class="c tl">
+          <span class="ico">📦</span>
+          <h4>Complete Lead Data Package</h4>
+          <p>Every delivered lead includes: homeowner first name and contact details, city and zip code, HVAC issue type confirmed through the AI qualification call, urgency level (today, this week, or flexible scheduling), homeownership confirmation, and a summary transcript of the AI qualification conversation. Every lead has been spoken to. No cold form submissions are ever delivered without AI qualification.</p>
+        </div>
+        <div class="c tg">
+          <span class="ico">💼</span>
+          <h4>Contractor Partner Profile</h4>
+          <p>Texas-licensed HVAC company operating within the campaign's target market. Able to respond to delivered leads within 60 minutes during standard business hours. Sufficient capacity to take on new residential service calls at the volume the campaign generates. An existing CRM or openness to using the IntellaBooks system directly, which naturally seeds the Phase 2 platform conversation from the first interaction.</p>
+        </div>
+      </div>
+
+      <div class="tw">
+        <table>
+          <thead><tr><th>Lead Type</th><th>Definition</th><th>Suggested Price Range</th><th>Best Application</th></tr></thead>
+          <tbody>
+            <tr><td>Exclusive Lead</td><td>One contractor in the market. Highest close rate. No competition on delivery.</td><td class="tl2">$80 to $150 per lead</td><td>Established contractors who prioritize quality and speed of close over volume</td></tr>
+            <tr><td>Shared Lead</td><td>Up to 3 contractors receive the lead simultaneously. Lower cost, higher volume.</td><td class="tg2">$35 to $65 per lead</td><td>Testing new markets or supporting contractors with strong follow-up systems</td></tr>
+            <tr><td>Qualified Live Transfer</td><td>AI qualifies the homeowner live and warm-transfers directly to the contractor's phone.</td><td class="tl2">$100 to $200 per transfer</td><td>Contractors who want zero follow-up lag and the highest possible close rate</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="co l">
+        <span class="cl">Phase 2 Transition Trigger</span>
+        The natural platform sale conversation with an HVAC contractor who has been buying leads for 4 to 6 weeks: <em>"You have seen the lead quality. You know what the AI call produces. The system that generated every one of those leads is now available for your business under your own brand. Your team gets the CRM, the AI caller, and the full follow-up engine. Here is what that looks like."</em> The lead sale relationship is the trust that makes the platform sale effortless.
+      </div>
+    </div>
+
+    <!-- 13 PHASE 2 -->
+    <div class="sec" id="s13">
+      <div class="sh"><span class="sn">13</span>
+        <div><div class="st">PLUMBING, ROOFING <em>AND SOLAR</em></div>
+        <div class="sd">Phase 2 niche expansion: the market data, the sequencing logic, and precisely what it takes to enter each one</div></div>
+      </div>
+
+      <p class="body">Roofing and Solar are the right long-term targets. Plumbing is the right second niche. The sequence is not arbitrary. It follows the data, the operational complexity at each stage, and the revenue logic that makes each niche accessible after the previous one is validated. The HVAC proof is what unlocks all of them.</p>
+
+      <div class="tw">
+        <table>
+          <thead><tr><th>Niche</th><th>Avg CPL (TX Meta)</th><th>Avg CPL (TX Google)</th><th>Avg Job Value</th><th>Decision Speed</th><th>Phase</th></tr></thead>
+          <tbody>
+            <tr><td>HVAC</td><td class="tl2">$27 to $80</td><td class="tl2">$104 blended</td><td class="tg2">$300 to $8,000+</td><td class="tl2">Hours to days</td><td class="tl2">Phase 1</td></tr>
+            <tr><td>Plumbing</td><td class="tl2">$30 to $80</td><td class="tg2">$167 non-branded</td><td class="tg2">$200 to $2,500</td><td class="tl2">Minutes to hours</td><td class="tg2">Phase 2: Second niche</td></tr>
+            <tr><td>Roofing</td><td class="tg2">$80 to $180</td><td class="tf2">$150 to $350</td><td class="tl2">$8,000 to $25,000</td><td class="tg2">Days to weeks</td><td class="tg2">Phase 2: After HVAC validation</td></tr>
+            <tr><td>Solar</td><td class="tg2">$80 to $200+</td><td class="tg2">$120 to $300+</td><td class="tl2">$15,000 to $50,000</td><td class="tf2">4 to 8 weeks</td><td class="tg2">Phase 2: After Roofing</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="g3">
+        <div class="c tl">
+          <span class="ico">🔧</span>
+          <h4>Plumbing: Second Niche</h4>
+          <p><strong style="color:var(--text)">Launch trigger:</strong> HVAC produces 10 validated leads with CPL under $80.<br><br>Plumbing is the fastest-converting home service category. 12 to 16% lead conversion rate. Emergency calls close on the first contact. Year-round and recession-proof. The creative angle is identical to HVAC: speed and urgency. The AI qualification script adjusts to capture issue type (leak, drain, water heater, burst pipe) but the funnel structure is identical. Runs in parallel with the HVAC campaign with a shared budget once validated.</p>
+        </div>
+        <div class="c tf">
+          <span class="ico">🏠</span>
+          <h4>Roofing: Phase 2 Expansion</h4>
+          <p><strong style="color:var(--text)">Launch trigger:</strong> HVAC and Plumbing combined produce 20 validated leads with documented CPL under target.<br><br>Lead with free inspection offer and storm damage urgency. CPL target: $80 to $150 on Meta. Average job value $8,000 to $25,000 makes even a $150 CPL extremely profitable. AI qualification confirms free inspection intent, roof age, and storm damage. One additional lead form qualifier ("Has your roof been inspected in the last 2 years?") significantly improves lead quality.</p>
+        </div>
+        <div class="c tf">
+          <span class="ico">☀️</span>
+          <h4>Solar: Final Phase 2 Entry</h4>
+          <p><strong style="color:var(--text)">Launch trigger:</strong> Roofing produces 10 validated leads.<br><br>Lead with savings-first messaging targeting homeowners cutting electric bills by 60 to 90%. One qualifying field on the lead form: "Do you own your home?" AI qualification confirms ownership, monthly electric bill size, and roof orientation. Only fully qualified homeowners are delivered. Average install value $15,000 to $50,000 makes the highest CPL in this strategy more than justified by closed revenue.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 14 KPIs -->
+    <div class="sec" id="s14">
+      <div class="sh"><span class="sn">14</span>
+        <div><div class="st">KPIs <em>AND BENCHMARKS</em></div>
+        <div class="sd">Phase 1 HVAC performance targets and the decision rules that govern when to optimize versus when to scale</div></div>
+      </div>
+
+      <div class="tw">
+        <table>
+          <thead><tr><th>Metric</th><th>Target</th><th>Warning Zone</th><th>Action Required</th></tr></thead>
+          <tbody>
+            <tr><td>Meta CPL (HVAC)</td><td class="tl2">$27 to $80</td><td class="tg2">$80 to $120</td><td>Test new hook variations. Tighten audience targeting. Remove any ad below 1.5% CTR immediately.</td></tr>
+            <tr><td>Google RSA CPL (HVAC)</td><td class="tl2">$72 to $149</td><td class="tg2">$150 to $200</td><td>Segment campaigns by service line. Pause low-quality keyword matches. Increase bid on top converters.</td></tr>
+            <tr><td>Meta Ad CTR</td><td class="tl2">Above 2.0%</td><td class="tg2">1.5% to 2.0%</td><td>Cut any ad below 1.5% CTR after 1,000 impressions. Introduce new hook to replace it within 48 hours.</td></tr>
+            <tr><td>Lead Form Completion</td><td class="tl2">Above 50%</td><td class="tg2">35% to 50%</td><td>Reduce form fields. Test alternative CTA copy. Confirm form headline matches ad creative exactly.</td></tr>
+            <tr><td>AI Contact Rate</td><td class="tl2">Above 70%</td><td class="tg2">50% to 70%</td><td>Review call timing, number health, and carrier delivery. Test calling within the first 5 seconds vs 10 seconds.</td></tr>
+            <tr><td>Lead to Qualification Rate</td><td class="tl2">25% to 40%</td><td class="tg2">Under 20%</td><td>Audit AI script for friction points. Review which qualification question causes the most drop-off and simplify.</td></tr>
+            <tr><td>Lead Delivery Time</td><td class="tl2">Under 5 minutes</td><td class="tg2">5 to 15 minutes</td><td>Audit webhook automation for pipeline stage delays. Confirm CRM trigger is firing on form submission, not form view.</td></tr>
+            <tr><td>Phase 1 Completion Target</td><td class="tl2">10 qualified leads, CPL under target</td><td class="tf2">Under 5 in 6 weeks</td><td>Full funnel audit required. Issue is most likely creative or offer positioning, not budget level.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="co g">
+        <span class="cl">Scale Decision Rules</span>
+        <strong>Kill:</strong> Any Meta ad with CTR below 1.5% after 1,000 impressions. Any Google RSA keyword group generating clicks above $200 CPL with no conversions after 10 clicks.<br>
+        <strong>Optimize before scaling:</strong> If AI contact rate is below 70% or lead qualification rate is below 20%, the funnel requires attention before budget is increased. Increased spend on a broken funnel amplifies waste, not results.<br>
+        <strong>Scale when:</strong> Meta CPL is under $80 AND AI contact rate exceeds 70% for 7 consecutive days. Increase daily budget by no more than 20% every 3 days to avoid resetting the algorithm learning phase.
+      </div>
+    </div>
+
+    <!-- 15 EXECUTION PLAN -->
+    <div class="sec" id="s15">
+      <div class="sh"><span class="sn">15</span>
+        <div><div class="st">8-WEEK <em>EXECUTION PLAN</em></div>
+        <div class="sd">A structured launch roadmap from campaign architecture through Phase 2 preparation</div></div>
+      </div>
+
+      <div class="tl">
+        <div class="ti">
+          <div class="tm"><div class="td b"></div><div class="tlt"></div></div>
+          <div class="tc">
+            <div class="tw2">Week 1</div>
+            <h5>Campaign Architecture and Contractor Partner Confirmation</h5>
+            <p>The first week is structural, not tactical. No ads run until the revenue outcome is confirmed. This means identifying and onboarding at least one HVAC contractor partner in DFW or Houston who is committed to purchasing qualified leads at the agreed price point. Simultaneously, the Meta Ads Manager account is structured with correct campaign architecture: separate ad sets for each of the three launch hook variations, conversion tracking verified end-to-end, and the audience pool seeding begins using broad homeowner targeting in the target Texas metro.</p>
+          </div>
+        </div>
+
+        <div class="ti">
+          <div class="tm"><div class="td b"></div><div class="tlt"></div></div>
+          <div class="tc">
+            <div class="tw2">Week 2</div>
+            <h5>Creative Production and Google RSA Build</h5>
+            <p>UGC creators receive the full script pack with all 10 hook variations and filming instructions. Each hook is filmed as a separate standalone intro to the same body script, producing 10 interchangeable openings for editing. Google RSA campaigns are built with service-line segmentation from day one: separate campaigns for AC repair, heating repair, and HVAC maintenance, each with 8 to 10 headline variants and 3 to 4 description variants loaded. Static top-of-funnel Meta ads go live this week to begin building the initial audience pool before video is ready.</p>
+          </div>
+        </div>
+
+        <div class="ti">
+          <div class="tm"><div class="td f"></div><div class="tlt"></div></div>
+          <div class="tc">
+            <div class="tw2">Week 3</div>
+            <h5>Full Campaign Launch Across Both Platforms</h5>
+            <p>Meta UGC video campaigns launch with three ad sets, each carrying a different hook variation. Google RSA campaigns go live simultaneously. Both platforms are in a learning phase for the first two weeks and must not be adjusted in this window. Any creative, targeting, audience, or budget change during weeks 3 and 4 resets the algorithm and destroys the data being collected. The discipline to hold steady during the learning phase is the single most common place campaigns fail to reach their potential. Daily monitoring covers CPL, CTR, form completion rate, AI contact rate, and qualification rate. Every outcome is logged in the IntellaBooks CRM dashboard.</p>
+          </div>
+        </div>
+
+        <div class="ti">
+          <div class="tm"><div class="td f"></div><div class="tlt"></div></div>
+          <div class="tc">
+            <div class="tw2">Weeks 4 and 5</div>
+            <h5>Optimization: Data-Led Creative Refinement</h5>
+            <p>Both platforms exit their learning phases. On Meta, the lowest-performing ad set is cut and replaced with a creative variation built from the winning hook. A new hook test is introduced against the current control. On Google RSA, headline and description combinations that are underperforming by conversion rate are swapped out, and bid strategy is adjusted toward top-converting service-line campaigns. Every AI qualification call recording from the first two weeks is reviewed to identify the most frequent homeowner objections and confusion points. The AI script is updated to address the top three. First qualified leads are delivered to the contractor partner this week.</p>
+          </div>
+        </div>
+
+        <div class="ti">
+          <div class="tm"><div class="td g"></div><div class="tlt"></div></div>
+          <div class="tc">
+            <div class="tw2">Week 6</div>
+            <h5>Validation Review and Scale Decision</h5>
+            <p>At the end of week 6, the funnel is either validated or under review. Validation requires: Meta CPL below $80, Google RSA CPL below $150, AI contact rate above 70%, and a minimum of 10 qualified leads delivered to the contractor partner with documented contractor feedback on lead quality. If validation criteria are met, daily budget scales to the next tier on both platforms. The documented CPL, contact rate, and qualification benchmarks are formalized as the Phase 1 playbook. This data is the asset that makes the Phase 2 platform sale and the Plumbing niche launch ready to begin.</p>
+          </div>
+        </div>
+
+        <div class="ti">
+          <div class="tm"><div class="td g"></div><div class="tlt"></div></div>
+          <div class="tc">
+            <div class="tw2">Week 7</div>
+            <h5>Cinematic Creative Deployment and Retargeting Activation</h5>
+            <p>With a validated retargeting audience now exceeding 1,000 contacts, cinematic high-impact ads are deployed to the warm audience pool and lookalike segments built from it. Google LSA is added as a third channel specifically for emergency-intent HVAC searches, layering on top of the existing RSA campaigns. Budget is rebalanced toward the highest-performing channel based on six weeks of live data. Platform split is reviewed and adjusted weekly going forward.</p>
+          </div>
+        </div>
+
+        <div class="ti">
+          <div class="tm"><div class="td l"></div></div>
+          <div class="tc">
+            <div class="tw2">Week 8</div>
+            <h5>Plumbing Niche Launch and Phase 2 Contractor Outreach</h5>
+            <p>Plumbing campaigns are launched using the validated HVAC funnel structure: same platform split, same creative framework, same AI qualification flow with issue-specific script adjustments. Plumbing runs in parallel with HVAC using separate campaign budgets and independent performance dashboards. Simultaneously, the existing HVAC contractor partner is approached with the Phase 2 platform conversation, using the 6-week documented performance data as the proof point. Outreach to roofing contractor partners in Texas begins, using the same documented results as the sales foundation for the Phase 2 niche expansion.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="foot">
+        <div>
+          <p>Prepared by <strong>Muhammad Usman</strong>, Head of Marketing, EvrythingAI</p>
+          <p>Confidential. For IntellaBooks use only. March 2026</p>
+        </div>
+        <span class="foot-brand">INTELLABOOKS</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<button id="mb" aria-label="Open navigation">&#9776;</button>
+
+<script>
+(function(){
+  var prg = document.getElementById('prg');
+  window.addEventListener('scroll', function(){
+    var h = document.documentElement;
+    prg.style.width = (h.scrollTop / (h.scrollHeight - h.clientHeight) * 100) + '%';
+  }, { passive: true });
+
+  var nav = document.getElementById('nav');
+  var ov  = document.getElementById('ov');
+  var mb  = document.getElementById('mb');
+  var nx  = document.getElementById('nav-x');
+
+  function open()  { nav.classList.add('open'); ov.style.display='block'; mb.style.display='none'; document.body.style.overflow='hidden'; }
+  function close() { nav.classList.remove('open'); ov.style.display='none'; mb.style.display='flex'; document.body.style.overflow=''; }
+
+  mb.addEventListener('click', open);
+  nx.addEventListener('click', close);
+  ov.addEventListener('click', close);
+
+  var items = document.querySelectorAll('.ni[data-t]');
+  var secs  = [];
+  items.forEach(function(item){
+    var id = item.getAttribute('data-t');
+    var el = document.getElementById(id);
+    if(el) secs.push({ el: el, item: item });
+    item.addEventListener('click', function(){
+      if(window.innerWidth <= 960) close();
+      var t = document.getElementById(id);
+      if(t) t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){
+          items.forEach(function(i){ i.classList.remove('on'); });
+          var m = secs.find(function(s){ return s.el === e.target; });
+          if(m) m.item.classList.add('on');
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '-60px 0px -50% 0px' });
+    secs.forEach(function(s){ io.observe(s.el); });
+  }
+})();
+</script>
+</body>
+</html>
